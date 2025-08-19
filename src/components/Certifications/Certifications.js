@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificationCard from "./CertificationCard";
 import Particle from "../Particle";
-
+//import all
 // Import certificate images
 import aws from "../../Assets/Certifications/aws.png";
 import oracle from "../../Assets/Certifications/oracle.png";
