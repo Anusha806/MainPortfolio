@@ -537,8 +537,6 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 10px !important;
 }  */
-
-
 /* --------- */
 /* Projects */
 /* --------- */
@@ -550,11 +548,11 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 30px !important; /* reduced from 50px */
-  padding-bottom: 30px !important; /* reduced from 50px */
-  padding-left: 20px !important; /* slightly smaller */
-  padding-right: 20px !important;
-  height: 350px !important; /* fixed smaller height for uniformity */
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
 }
 
 .project-card-view {
@@ -572,20 +570,12 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
-/* Image control so tall images don’t stretch cards */
-.project-card-view img {
-  height: 150px !important;
-  object-fit: contain !important;
-  padding: 10px !important;
-  border-radius: 8px !important;
-}
-
 .blog-card {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  height: 350px !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
 }
 
 .blog-card-view {
@@ -611,13 +601,22 @@ button:focus {
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
 
+/* Fixed image size */
 .card-img-top {
-  padding: 10px !important; /* reduced padding */
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 8px !important;
+  border-radius: 10px !important;
 }
 
 .blog-img {
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
   padding: 0px !important;
   opacity: 0.8 !important;
   border-radius: 0px !important;
@@ -646,6 +645,10 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+/* --------- */
+/* Projects */
+/* --------- */
 
 /* --------- */
 /* About */
