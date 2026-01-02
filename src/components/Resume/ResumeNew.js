@@ -14,7 +14,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
-   const pdf = "/Resume4.pdf";
+   const pdf = "/Resume4-2.pdf";
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
